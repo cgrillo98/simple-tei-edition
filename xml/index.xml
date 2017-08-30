@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Las fechas claves del programa de misiles de Corea del Norte</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>noticias del mundo</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>el espectador 29 de agosto</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <p>Corea del Norte efectuó este martes un disparo de misil balístico que sobrevoló Japón,</p>
+     
+         <figure>
+            <graphic url="imagen.jpg"/>
+            <head>Figure One: misiles</head>
+            <figDesc>Dos misiles chinos en un camión</figDesc>
+         </figure>
+         <p>- Finales de 1970: Corea del Norte comienza a trabajar 
+            <hi>en una versión</hi> el misil soviético 
+            Scud-B (de un alcance de 300 km). Probado en 1984.</p>
+      
+         <div>
+         <linkGrp type="translation">
+            <link target="#CCS1 #SW1"/>
+            <link target="#CCS2 #SW2"/>
+            <link target="#CCS #SW"/>
+         </linkGrp>
+        </div>
+
       </body>
+ 
   </text>
+   
 </TEI>
